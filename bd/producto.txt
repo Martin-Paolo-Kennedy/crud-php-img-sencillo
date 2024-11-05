@@ -1,0 +1,11 @@
+CREATE DATABASE crud_php_img;
+
+USE crud_php_img;
+
+CREATE TABLE productos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    descripcion TEXT,
+    precio DECIMAL(10, 2) NOT NULL,
+    imagen VARCHAR(255) NOT NULL
+);
